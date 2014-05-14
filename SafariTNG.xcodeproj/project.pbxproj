@@ -14,13 +14,14 @@
 		AE1DAA381923C71500B4806E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DAA371923C71500B4806E /* main.m */; };
 		AE1DAA3C1923C71500B4806E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DAA3B1923C71500B4806E /* AppDelegate.m */; };
 		AE1DAA3F1923C71500B4806E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1DAA3D1923C71500B4806E /* Main.storyboard */; };
-		AE1DAA421923C71500B4806E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DAA411923C71500B4806E /* ViewController.m */; };
+		AE1DAA421923C71500B4806E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DAA411923C71500B4806E /* WebViewController.m */; };
 		AE1DAA441923C71500B4806E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1DAA431923C71500B4806E /* Images.xcassets */; };
 		AE1DAA4B1923C71500B4806E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1DAA4A1923C71500B4806E /* XCTest.framework */; };
 		AE1DAA4C1923C71500B4806E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1DAA2B1923C71500B4806E /* Foundation.framework */; };
 		AE1DAA4D1923C71500B4806E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1DAA2F1923C71500B4806E /* UIKit.framework */; };
 		AE1DAA551923C71500B4806E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE1DAA531923C71500B4806E /* InfoPlist.strings */; };
 		AE1DAA571923C71500B4806E /* SafariTNGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DAA561923C71500B4806E /* SafariTNGTests.m */; };
+		AE1DAAA21923EB2A00B4806E /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1DAAA11923EB2A00B4806E /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,15 @@
 		AE1DAA3A1923C71500B4806E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE1DAA3B1923C71500B4806E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE1DAA3E1923C71500B4806E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE1DAA401923C71500B4806E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE1DAA411923C71500B4806E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE1DAA401923C71500B4806E /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AE1DAA411923C71500B4806E /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		AE1DAA431923C71500B4806E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE1DAA491923C71500B4806E /* SafariTNGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTNGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1DAA4A1923C71500B4806E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AE1DAA521923C71500B4806E /* SafariTNGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SafariTNGTests-Info.plist"; sourceTree = "<group>"; };
 		AE1DAA541923C71500B4806E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE1DAA561923C71500B4806E /* SafariTNGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariTNGTests.m; sourceTree = "<group>"; };
+		AE1DAAA11923EB2A00B4806E /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1DAAA21923EB2A00B4806E /* CheckMate.framework in Frameworks */,
 				AE1DAA2E1923C71500B4806E /* CoreGraphics.framework in Frameworks */,
 				AE1DAA301923C71500B4806E /* UIKit.framework in Frameworks */,
 				AE1DAA2C1923C71500B4806E /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		AE1DAA2A1923C71500B4806E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE1DAAA11923EB2A00B4806E /* CheckMate.framework */,
 				AE1DAA2B1923C71500B4806E /* Foundation.framework */,
 				AE1DAA2D1923C71500B4806E /* CoreGraphics.framework */,
 				AE1DAA2F1923C71500B4806E /* UIKit.framework */,
@@ -115,8 +119,8 @@
 				AE1DAA3A1923C71500B4806E /* AppDelegate.h */,
 				AE1DAA3B1923C71500B4806E /* AppDelegate.m */,
 				AE1DAA3D1923C71500B4806E /* Main.storyboard */,
-				AE1DAA401923C71500B4806E /* ViewController.h */,
-				AE1DAA411923C71500B4806E /* ViewController.m */,
+				AE1DAA401923C71500B4806E /* WebViewController.h */,
+				AE1DAA411923C71500B4806E /* WebViewController.m */,
 				AE1DAA431923C71500B4806E /* Images.xcassets */,
 				AE1DAA321923C71500B4806E /* Supporting Files */,
 			);
@@ -249,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1DAA421923C71500B4806E /* ViewController.m in Sources */,
+				AE1DAA421923C71500B4806E /* WebViewController.m in Sources */,
 				AE1DAA3C1923C71500B4806E /* AppDelegate.m in Sources */,
 				AE1DAA381923C71500B4806E /* main.m in Sources */,
 			);
@@ -376,6 +380,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/teacher/Desktop/mobile,
+					makers,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariTNG/SafariTNG-Prefix.pch";
 				INFOPLIST_FILE = "SafariTNG/SafariTNG-Info.plist";
@@ -389,6 +398,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/teacher/Desktop/mobile,
+					makers,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafariTNG/SafariTNG-Prefix.pch";
 				INFOPLIST_FILE = "SafariTNG/SafariTNG-Info.plist";
